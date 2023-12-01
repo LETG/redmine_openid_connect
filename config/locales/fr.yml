@@ -1,0 +1,20 @@
+# English strings go here for Rails i18n
+en:
+  config:
+    enabled: Activé
+    login_selector: Forcer l'authentification par SSO
+    header: Configuration OpenID Connect
+    client_id: Client ID
+    openid_connect_server_url: URL du serveur OpenID Connect
+    scopes: Scopes OpenID Connect (séparés par des virgules)
+    client_secret: Client Secret
+    group: Groupe autorisé (laisser vide pour autoriser tout le monde)
+    admin_group: Groupe admin (les membres de ce groupe seront administrateurs)
+    dynamic_config_expiry: Période de rafraîchissement de la configuration openid (par défaut 1 jour)
+    create_user_if_not_exists: Créer l'utilisateur s'il n'existe pas
+    disallowed_auth_sources_login: Les utilisateurs provenant de ces sources devront s'authentifier par SSO
+  oic_logout_success: "Vous avez été déconnecté. <a href='%{value}'>Cliquer ici pour revenir à l'accueil</a>."
+  oic_cannot_create_user: "Impossible de créer l'utilisateur: %{value}: "
+  oic_try_another_account: "<a href='%{value}'>Essayez de vous authentifier avec un autre compte</a>"
+  oic_cannot_login_user: "L'utilisateur %{value} ne peut pas s'authentifier: Veuillez utiliser l'authentification par SSO"
+  button_login_sso: Connexion Fédération RENATER
