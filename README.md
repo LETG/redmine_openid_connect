@@ -27,7 +27,7 @@ Just include `username` in the scope being sent and replied to the client app.
 1. Go to your Redmine plugins directory.
 2. Clone/copy this plugin.
 3. Run `bundle install`
-4. Run `bundle exec rake redmine:plugins:migrate RAILS_ENV=production`
+4. Run `bundle exec rake redmine:plugins:migrate NAME=redmine_openid_connect RAILS_ENV=production`
 5. Restart your server
 6. Login as administrator and head over to the plugins page.
 7. Open the configuration page for redmine openid connect plugin.
